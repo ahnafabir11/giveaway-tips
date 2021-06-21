@@ -1,0 +1,24 @@
+.footer_header {
+  text-align: center;
+}
+
+.footer_text {
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+  max-width: 900px;
+  margin: 20px auto;
+}
+
+.tomato_color  {
+  color: tomato;
+}
+
+@media (max-width: 600px) {
+  .footer_header {
+    font-size: 1.2rem;
+  }
+  .footer_text {
+    font-size: 1rem;
+  }
+}

@@ -1,0 +1,43 @@
+.container_border {
+  border: 5px solid tomato;
+  border-radius: 10px;
+}
+
+.main_title {
+  font-size: 3.8rem;
+  text-align: center;
+  font-weight: 800;
+  color: #2f4b37;
+}
+
+.sub_title {
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: 500;
+  color: #7A5E55;
+}
+
+.product_container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.confirm_btn {
+  font-size: 18px !important;
+  text-align: center !important;
+  width: 150px !important;
+  display: block !important;
+  margin: 30px auto !important;
+  padding: 15px 0px !important;
+}
+
+.confirm_btn:hover {
+  color: white !important;
+}
+
+@media (max-width: 600px) {
+  .main_title {
+    font-size: 2.8rem;
+  }
+}
